@@ -1,9 +1,36 @@
 body {
     margin: 0%;
 }
+
+/*header*/
+
+.header {
+    background-color: rosybrown;
+    padding: 20px 5%;
+    max-height: 50px;
+}
+
+.img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.bank-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+/*welcome user container*/
 .container {
     display: flex;
-    background-color: rosybrown;
+    background-color: blueviolet;
     justify-content: flex-end;
     padding: 10px 10%;
     max-height: 40px;
@@ -33,6 +60,7 @@ body {
 @media (max-width: 520px) {
     .container {
         padding: 10px 4%;
+        background-color: royalblue;
     }
     .title {
         margin: 9px 5%;
